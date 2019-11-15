@@ -11,4 +11,10 @@ adminrouter.get("/:No",function(req,res)
     res.send("Admin No " + req.params.No);
 });
 
+
+adminrouter.post("/",function(req,res)
+{
+    res.send("Admin No ");
+});
+
 module.exports = adminrouter;
